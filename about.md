@@ -1,8 +1,6 @@
 ---
 layout: page
-permalink: /about/
 ---
-
 
 # <center> About Me </center>
 
