@@ -1,5 +1,7 @@
 ---
-layout: page
+layout: default
+title: About Me
+permalink:/about/
 ---
 
 # <center> About Me </center>
