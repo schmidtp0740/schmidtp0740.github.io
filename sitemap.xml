@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.philipschmidt.io/projects/healthapp/</loc>
+    <lastmod>2018-11-03T13:53:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.philipschmidt.io/projects/permanenttraveler/</loc>
+    <lastmod>2018-11-03T13:45:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.philipschmidt.io/contact/</loc>
+    <lastmod>2018-11-03T13:43:04-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.philipschmidt.io/about/</loc>
+    <lastmod>2018-11-03T13:36:35-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.philipschmidt.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.philipschmidt.io/projects/</loc>
+    <lastmod>2018-11-03T13:53:31-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.philipschmidt.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.philipschmidt.io/</loc>
+    <lastmod>2018-11-03T13:53:31-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
