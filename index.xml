@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>philipschmidt</title>
-    <link>https://schmidtp0740.github.io/</link>
+    <link>https://philipschmidt.io/</link>
     <description>Recent content on philipschmidt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 03 Nov 2018 13:53:31 -0500</lastBuildDate>
     
-	<atom:link href="https://schmidtp0740.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://philipschmidt.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Health App</title>
-      <link>https://schmidtp0740.github.io/projects/healthapp/</link>
+      <link>https://philipschmidt.io/projects/healthapp/</link>
       <pubDate>Sat, 03 Nov 2018 13:53:31 -0500</pubDate>
       
-      <guid>https://schmidtp0740.github.io/projects/healthapp/</guid>
+      <guid>https://philipschmidt.io/projects/healthapp/</guid>
       <description>A software Engineering II project where a user can log their meals and track their health progress. Utilizing Express, Node and MySQL. Other Developers include Karl Strickland and Tyler Palmer.</description>
     </item>
     
     <item>
       <title>Permanent Traveler</title>
-      <link>https://schmidtp0740.github.io/projects/permanenttraveler/</link>
+      <link>https://philipschmidt.io/projects/permanenttraveler/</link>
       <pubDate>Sat, 03 Nov 2018 13:45:46 -0500</pubDate>
       
-      <guid>https://schmidtp0740.github.io/projects/permanenttraveler/</guid>
+      <guid>https://philipschmidt.io/projects/permanenttraveler/</guid>
       <description>A development for a peer for their senior showcase. Designed and Owned by Zach Smith. I simply developed with HTML, CSS, Bootstrap, and Javascript.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://schmidtp0740.github.io/contact/</link>
+      <link>https://philipschmidt.io/contact/</link>
       <pubDate>Sat, 03 Nov 2018 13:43:04 -0500</pubDate>
       
-      <guid>https://schmidtp0740.github.io/contact/</guid>
+      <guid>https://philipschmidt.io/contact/</guid>
       <description>How to Reach Me The best way to reach me is on Linkedin</description>
     </item>
     
     <item>
       <title>About Me</title>
-      <link>https://schmidtp0740.github.io/about/</link>
+      <link>https://philipschmidt.io/about/</link>
       <pubDate>Sat, 03 Nov 2018 13:36:35 -0500</pubDate>
       
-      <guid>https://schmidtp0740.github.io/about/</guid>
+      <guid>https://philipschmidt.io/about/</guid>
       <description>Hello! My name is Philip Schmidt and I am from St. Paul, MN. In my free time I like to work on side projects to create tools to support cloud services, game on PC or Xbox, travel, go to local events. I am also learning how to speak Portuguese since I frequently visit Brazil to visit family from time to time. My career path is focused on being a customer facing developer creating tools to support cloud services.</description>
     </item>
     

@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on philipschmidt</title>
-    <link>https://schmidtp0740.github.io/categories/</link>
+    <link>https://philipschmidt.io/categories/</link>
     <description>Recent content in Categories on philipschmidt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="https://schmidtp0740.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://philipschmidt.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
