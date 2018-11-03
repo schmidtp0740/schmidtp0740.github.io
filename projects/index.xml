@@ -22,6 +22,15 @@ Abstract This project was purely meant as a fun project to gain more experiance 
     </item>
     
     <item>
+      <title>EMR on the Blockchain</title>
+      <link>https://philipschmidt.io/projects/hc-bc/</link>
+      <pubDate>Fri, 15 Dec 2017 16:58:42 -0500</pubDate>
+      
+      <guid>https://philipschmidt.io/projects/hc-bc/</guid>
+      <description>Abstract This is a implemenation of what it might look like to put EMR on a permissioned blockchain. There are 3 participants in the bussiness network: doctor, pharmacist, and insurance auditor. The use case that a given patient&amp;rsquo;s prescription would be tracked throughout its lifestyle. Other types of data tracked are blood pressure and heart rate data. This was a team project involving several front end developers. My role in this was to design the architecture of this solution as well as implement the api gatway to access the blockchain ledger on Oracle Block Cloud Service.</description>
+    </item>
+    
+    <item>
       <title>Permanent Traveler</title>
       <link>https://philipschmidt.io/projects/permanenttraveler/</link>
       <pubDate>Thu, 23 Mar 2017 13:45:46 -0500</pubDate>
