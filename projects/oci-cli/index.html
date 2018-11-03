@@ -10,9 +10,11 @@
     <meta name="keywords" content="blog,developer,personal">
 
     <base href="https://philipschmidt.io">
-    <title>Projects · philipschmidt</title>
+    <title>
+  OCI CLI · philipschmidt
+</title>
 
-    <link rel="canonical" href="https://philipschmidt.io/projects/">
+    <link rel="canonical" href="https://philipschmidt.io/projects/oci-cli/">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:300,700|Source+Code+Pro:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
@@ -31,9 +33,6 @@
     <link rel="icon" type="image/png" href="https://philipschmidt.io/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://philipschmidt.io/images/favicon-16x16.png" sizes="16x16">
 
-    
-      <link href="https://philipschmidt.io/projects/index.xml" rel="alternate" type="application/rss+xml" title="philipschmidt" />
-      <link href="https://philipschmidt.io/projects/index.xml" rel="feed" type="application/rss+xml" title="philipschmidt" />
     
 
     <meta name="generator" content="Hugo 0.50" />
@@ -72,28 +71,29 @@
 
       <div class="content">
         
-  <section class="container list">
-  <h1 class="title">Projects</h1>
-  <ul>
+  <section class="container page">
+  <article>
+    <header>
+      <h1>OCI CLI</h1>
+    </header>
+
     
-    <li>
-      <span>May 2, 2018</span>
-      <a href="https://philipschmidt.io/projects/oci-cli/">OCI CLI</a>
-    </li>
-    
-    <li>
-      <span>March 23, 2017</span>
-      <a href="https://philipschmidt.io/projects/permanenttraveler/">Permanent Traveler</a>
-    </li>
-    
-  </ul>
-  
 
+<p><a href="https://github.com/schmidtp0740/oci-dev">https://github.com/schmidtp0740/oci-dev</a></p>
 
+<h1 id="abstract">Abstract</h1>
 
+<p>This project was purely meant as a fun project to gain more experiance in Golang as well as using the SDKs for Oracle Cloud Infrastructure(OCI). OCI already has a cli built in python so I decided to rebuild it in golang. This would showcase how easy it is to install the oci without any dependecies. I also planned to add some features some technical solutions engineers might find helpful, for instance getting the ip address of a compute instance in one command instead of 3.</p>
 
+<h1 id="challenges-that-i-faced">Challenges That I Faced</h1>
 
+<ul>
+<li>learning how to use the <a href="https://github.com/spf13/cobra">spf13/cobra</a> library</li>
+<li>learning how to use the <a href="https://github.com/oracle/oci-go-sdk">oci-go-sdk</a> to create, update, and delete resources in OCI</li>
+<li>learning how to implement bash completion</li>
+</ul>
 
+  </article>
 </section>
 
 

@@ -6,28 +6,10 @@
     <description>Recent content on philipschmidt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Nov 2018 13:53:31 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 03 Nov 2018 13:43:04 -0500</lastBuildDate>
     
 	<atom:link href="https://philipschmidt.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Health App</title>
-      <link>https://philipschmidt.io/projects/healthapp/</link>
-      <pubDate>Sat, 03 Nov 2018 13:53:31 -0500</pubDate>
-      
-      <guid>https://philipschmidt.io/projects/healthapp/</guid>
-      <description>A software Engineering II project where a user can log their meals and track their health progress. Utilizing Express, Node and MySQL. Other Developers include Karl Strickland and Tyler Palmer.</description>
-    </item>
-    
-    <item>
-      <title>Permanent Traveler</title>
-      <link>https://philipschmidt.io/projects/permanenttraveler/</link>
-      <pubDate>Sat, 03 Nov 2018 13:45:46 -0500</pubDate>
-      
-      <guid>https://philipschmidt.io/projects/permanenttraveler/</guid>
-      <description>A development for a peer for their senior showcase. Designed and Owned by Zach Smith. I simply developed with HTML, CSS, Bootstrap, and Javascript.</description>
-    </item>
     
     <item>
       <title>Contact</title>
@@ -45,6 +27,25 @@
       
       <guid>https://philipschmidt.io/about/</guid>
       <description>Hello! My name is Philip Schmidt and I am from St. Paul, MN. In my free time I like to work on side projects to create tools to support cloud services, game on PC or Xbox, travel, go to local events. I am also learning how to speak Portuguese since I frequently visit Brazil to visit family from time to time. My career path is focused on being a customer facing developer creating tools to support cloud services.</description>
+    </item>
+    
+    <item>
+      <title>OCI CLI</title>
+      <link>https://philipschmidt.io/projects/oci-cli/</link>
+      <pubDate>Wed, 02 May 2018 16:43:10 -0500</pubDate>
+      
+      <guid>https://philipschmidt.io/projects/oci-cli/</guid>
+      <description>https://github.com/schmidtp0740/oci-dev
+Abstract This project was purely meant as a fun project to gain more experiance in Golang as well as using the SDKs for Oracle Cloud Infrastructure(OCI). OCI already has a cli built in python so I decided to rebuild it in golang. This would showcase how easy it is to install the oci without any dependecies. I also planned to add some features some technical solutions engineers might find helpful, for instance getting the ip address of a compute instance in one command instead of 3.</description>
+    </item>
+    
+    <item>
+      <title>Permanent Traveler</title>
+      <link>https://philipschmidt.io/projects/permanenttraveler/</link>
+      <pubDate>Thu, 23 Mar 2017 13:45:46 -0500</pubDate>
+      
+      <guid>https://philipschmidt.io/projects/permanenttraveler/</guid>
+      <description>A development for a peer for their senior showcase. Designed and Owned by Zach Smith. I simply developed with HTML, CSS, Bootstrap, and Javascript.</description>
     </item>
     
   </channel>
