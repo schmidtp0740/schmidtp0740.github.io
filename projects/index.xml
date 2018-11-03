@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on philipschmidt</title>
-    <link>http://www.philipschmidt.io/projects/</link>
+    <link>https://schmidtp0740.github.io/projects/</link>
     <description>Recent content in Projects on philipschmidt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 03 Nov 2018 13:53:31 -0500</lastBuildDate>
     
-	<atom:link href="http://www.philipschmidt.io/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://schmidtp0740.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Health App</title>
-      <link>http://www.philipschmidt.io/projects/healthapp/</link>
+      <link>https://schmidtp0740.github.io/projects/healthapp/</link>
       <pubDate>Sat, 03 Nov 2018 13:53:31 -0500</pubDate>
       
-      <guid>http://www.philipschmidt.io/projects/healthapp/</guid>
+      <guid>https://schmidtp0740.github.io/projects/healthapp/</guid>
       <description>A software Engineering II project where a user can log their meals and track their health progress. Utilizing Express, Node and MySQL. Other Developers include Karl Strickland and Tyler Palmer.</description>
     </item>
     
     <item>
       <title>Permanent Traveler</title>
-      <link>http://www.philipschmidt.io/projects/permanenttraveler/</link>
+      <link>https://schmidtp0740.github.io/projects/permanenttraveler/</link>
       <pubDate>Sat, 03 Nov 2018 13:45:46 -0500</pubDate>
       
-      <guid>http://www.philipschmidt.io/projects/permanenttraveler/</guid>
+      <guid>https://schmidtp0740.github.io/projects/permanenttraveler/</guid>
       <description>A development for a peer for their senior showcase. Designed and Owned by Zach Smith. I simply developed with HTML, CSS, Bootstrap, and Javascript.</description>
     </item>
     
