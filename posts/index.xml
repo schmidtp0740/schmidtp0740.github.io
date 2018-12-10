@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on philipschmidt</title>
+    <link>https://philipschmidt.io/posts/</link>
+    <description>Recent content in Posts on philipschmidt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 Nov 2018 03:37:12 -0600</lastBuildDate>
+    
+	<atom:link href="https://philipschmidt.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Setup Jenkins X on Oracle Container Engine</title>
+      <link>https://philipschmidt.io/posts/howtosetupjenkinsxonoke/</link>
+      <pubDate>Sun, 04 Nov 2018 03:37:12 -0600</pubDate>
+      
+      <guid>https://philipschmidt.io/posts/howtosetupjenkinsxonoke/</guid>
+      <description>Abstract This setup guide will help to setup jenkins-x on an OKE cluster.
+Prereqs  Install the OCI CLI Configure the oci profile config file Install kubectl install jenkins-x  Step 1  deploy vcn and resources in OCI  use the network module for a template of how to configure 2 load balancer subnets and 3 public worker subnet with appropriate security list docs on how to configure your vcn for OKE   Step 2 Deploy new cluster in OCI  Create a new oke cluster with jenkins x installed  the regional container engine for kubernetes rest endpoint to find the ocid of the vcn, compartment, load balancer and worker subnets refer to the oci console   jx create cluster oke \ --name=&amp;#34;c2-jx-cluster&amp;#34; \ --docker-registry=&amp;#34;iad.</description>
+    </item>
+    
+  </channel>
+</rss>
