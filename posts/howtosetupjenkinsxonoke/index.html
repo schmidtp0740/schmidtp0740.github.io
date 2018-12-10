@@ -91,7 +91,7 @@
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              One minute read
+              2 minutes read
             </span>
           </div>
           
@@ -145,7 +145,15 @@
     --sshPublicKey=&#34;&lt;content-of-ssh-public-key&gt;&#34; \
     --vcnId=&#34;&lt;vcn-Id&gt;&#34; \
     --endpoint=&#34;&lt;regional-container-engine-for-kubernetes-rest-endpoint&gt;&#34; </pre></div>
-<h2 id="step-3-create-a-docker-authentication-token">Step 3 Create a docker authentication token</h2>
+<h2 id="setup-3-download-kubeconfig-file">Setup 3 Download kubeconfig file</h2>
+
+<ul>
+<li>click the access kubectl button on the oke page to download the kubectl config</li>
+<li>you can either save the file to a directory and do <code>export KUBECONFIG=`pwd`/kubeconfig</code>
+or save it to $HOME/.kube/config</li>
+</ul>
+
+<h2 id="step-4-create-a-docker-authentication-token">Step 4 Create a docker authentication token</h2>
 
 <ul>
 <li>create docker auth
@@ -155,7 +163,7 @@
 </ul></li>
 </ul>
 <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">jx create docker auth --host &#34;iad.ocir.io&#34; --secret &#34;&lt;auth-token&gt;&#34; --email &#34;&lt;email-address&gt;&#34; --user &#34;&lt;tenancy-name&gt;/&lt;oci-user-name&gt;&#34;</pre></div>
-<h2 id="step-4-deploy-an-application-on-jenkins-x">Step 4 Deploy an application on Jenkins X</h2>
+<h2 id="step-5-deploy-an-application-on-jenkins-x">Step 5 Deploy an application on Jenkins X</h2>
 
 <ul>
 <li>create application</li>
