@@ -137,38 +137,39 @@
 </ul></li>
 </ul>
 <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">jx create cluster oke \
-    --name=&#34;c2-jx-cluster&#34; \
-    --docker-registry=&#34;iad.ocir.io&#34; \
-    --compartmentId=&#34;&lt;compartment-ocid&gt;&#34; \
-    --default-admin-password=&#34;&lt;some-secure-password&gt;&#34; \
-    --serviceLbSubnetIds=&#34;&lt;lb1-ocid&gt;,&lt;lb2-ocid&gt;&#34; \
-    --sshPublicKey=&#34;&lt;content-of-ssh-public-key&gt;&#34; \
-    --vcnId=&#34;&lt;vcn-Id&gt;&#34; \
-    --endpoint=&#34;&lt;regional-container-engine-for-kubernetes-rest-endpoint&gt;&#34; </pre></div>
+--name=&#34;c2-oke-hcbc&#34; \
+--docker-registry=&#34;iad.ocir.io/&lt;tenancy-name&gt;&#34; \
+--compartmentId=&#34;&lt;compartment-ocid&gt;&#34; \
+--serviceLbSubnetIds=&#34;&lt;loadbalancer1-ocid&gt;,&lt;loadbalancer2-ocid&gt;&#34; \
+--endpoint=&#34;https://containerengine.us-ashburn-1.oraclecloud.com&#34; \
+--vcnId=&#34;&lt;vcn-ocid&gt;&#34; \
+--sshPublicKey=&#34;&lt;content-of-public-ssh-key&gt;&#34; \
+--nodePoolSubnetIds=&#34;&lt;worker-node-subnet-ocid&gt;&#34; \</pre></div>
+<ul>
+<li>follow the prompt to choose the latest kubernetes version, image versions, and instance shapes that you want</li>
+</ul>
+
 <h2 id="setup-3-download-kubeconfig-file">Setup 3 Download kubeconfig file</h2>
 
 <ul>
-<li>click the access kubectl button on the oke page to download the kubectl config</li>
-<li>you can either save the file to a directory and do <code>export KUBECONFIG=`pwd`/kubeconfig</code>
-or save it to $HOME/.kube/config</li>
+<li>click the access kubectl button on the oke page to download the kubectl config
+<code>
+mkdir -p $HOME/.kube
+</code>
+```
+oci ce cluster create-kubeconfig &ndash;cluster-id <cluster-id> &ndash;file $HOME/.kube/config &ndash;region us-ashburn-1</li>
 </ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">## Setup Change to jx ns</pre></div>
+<p>jx ns jx</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">## Step 4 Create a docker authentication token
+- create docker auth
+    - for the secret value you create an auth token for the user in the tenancy</pre></div>
+<p>jx create docker auth &ndash;host &ldquo;iad.ocir.io&rdquo; &ndash;secret &ldquo;<auth-token>&rdquo; &ndash;email &ldquo;<email-address>&rdquo; &ndash;user &ldquo;<tenancy-name>/<oci-user-name>&ldquo;</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">## Step 5 Deploy an application on Jenkins X
+- create application</pre></div>
+<p>jx create quickstart -l go
+```</p>
 
-<h2 id="step-4-create-a-docker-authentication-token">Step 4 Create a docker authentication token</h2>
-
-<ul>
-<li>create docker auth
-
-<ul>
-<li>for the secret value you create an auth token for the user in the tenancy</li>
-</ul></li>
-</ul>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">jx create docker auth --host &#34;iad.ocir.io&#34; --secret &#34;&lt;auth-token&gt;&#34; --email &#34;&lt;email-address&gt;&#34; --user &#34;&lt;tenancy-name&gt;/&lt;oci-user-name&gt;&#34;</pre></div>
-<h2 id="step-5-deploy-an-application-on-jenkins-x">Step 5 Deploy an application on Jenkins X</h2>
-
-<ul>
-<li>create application</li>
-</ul>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">jx create quickstart -l go</pre></div>
       </div>
 
       <footer>

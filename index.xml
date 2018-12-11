@@ -18,7 +18,7 @@
       
       <guid>https://philipschmidt.io/posts/howtosetupjenkinsxonoke/</guid>
       <description>Abstract This setup guide will help to setup jenkins-x on an OKE cluster.
-Prereqs  Install the OCI CLI Configure the oci profile config file Install kubectl install jenkins-x  Step 1  deploy vcn and resources in OCI  use the network module for a template of how to configure 2 load balancer subnets and 3 public worker subnet with appropriate security list docs on how to configure your vcn for OKE   Step 2 Deploy new cluster in OCI  Create a new oke cluster with jenkins x installed  the regional container engine for kubernetes rest endpoint to find the ocid of the vcn, compartment, load balancer and worker subnets refer to the oci console   jx create cluster oke \ --name=&amp;#34;c2-jx-cluster&amp;#34; \ --docker-registry=&amp;#34;iad.</description>
+Prereqs  Install the OCI CLI Configure the oci profile config file Install kubectl install jenkins-x  Step 1  deploy vcn and resources in OCI  use the network module for a template of how to configure 2 load balancer subnets and 3 public worker subnet with appropriate security list docs on how to configure your vcn for OKE   Step 2 Deploy new cluster in OCI  Create a new oke cluster with jenkins x installed  the regional container engine for kubernetes rest endpoint to find the ocid of the vcn, compartment, load balancer and worker subnets refer to the oci console   jx create cluster oke \ --name=&amp;#34;c2-oke-hcbc&amp;#34; \ --docker-registry=&amp;#34;iad.</description>
     </item>
     
     <item>
